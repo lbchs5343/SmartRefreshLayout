@@ -2,7 +2,12 @@
 
 buildscript {
     repositories {
-        maven { url 'https://mvnrepository.com/artifact/com.flyco.roundview/FlycoRoundView_Lib/' } 
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+        maven { url 'https://dl.bintray.com/ppartisan/maven/' }
+        maven { url "https://clojars.org/repo/" }
+        maven { url "https://jitpack.io" }
         google()
         mavenCentral()
         gradlePluginPortal()
@@ -14,7 +19,12 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url 'https://mvnrepository.com/artifact/com.flyco.roundview/FlycoRoundView_Lib/' } 
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+        maven { url 'https://dl.bintray.com/ppartisan/maven/' }
+        maven { url "https://clojars.org/repo/" }
+        maven { url "https://jitpack.io" }
         google()
         mavenCentral()
         gradlePluginPortal()
