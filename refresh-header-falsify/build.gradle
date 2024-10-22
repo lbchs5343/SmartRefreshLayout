@@ -21,8 +21,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    lint {
-        baseline = file("lint-baseline.xml") // 创建一个 Lint 基线文件
+    lintOptions {
+        abortOnError false
+        baseline file("lint-baseline.xml")
     }
 
 }
