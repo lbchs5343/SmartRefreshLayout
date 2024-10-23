@@ -26,3 +26,9 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: 上传构建工件
+      uses: actions/upload-artifact@v2
+      with:
+        name: app-debug
+        path: app/build/outputs/
+
